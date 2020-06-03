@@ -34,6 +34,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -63,6 +64,7 @@ class _MyAppState extends State<MyApp> {
               ],
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const SizedBox(height: 30),
                 RaisedButton(
